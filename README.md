@@ -1,7 +1,7 @@
 ## Jobcenter Simulator
 
-**Tage arbeitslos**: 33<br>
-**Zuletzt aktualisiert**: 2022-08-07<br>
+**Tage arbeitslos**: 34<br>
+**Zuletzt aktualisiert**: 2022-08-08<br>
 **Aktueller Arbeitgeber**: Jobcenter Berlin Spandau<br>
 **Position**: Neuer Jobcenter-Klient<br>
 
