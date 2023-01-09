@@ -1,7 +1,7 @@
 ## Jobcenter Simulator
 
-**Tage arbeitslos**: 187<br>
-**Zuletzt aktualisiert**: 2023-01-08<br>
+**Tage arbeitslos**: 188<br>
+**Zuletzt aktualisiert**: 2023-01-09<br>
 **Aktueller Arbeitgeber**: Jobcenter Berlin Spandau<br>
 **Position**: Motivierter Langzeit-Bewerber<br>
 
