@@ -1,7 +1,7 @@
 ## Jobcenter Simulator
 
-**Tage arbeitslos**: 650<br>
-**Zuletzt aktualisiert**: 2024-04-15<br>
+**Tage arbeitslos**: 651<br>
+**Zuletzt aktualisiert**: 2024-04-16<br>
 **Aktueller Arbeitgeber**: Jobcenter Berlin Spandau<br>
 **Position**: Fortgeschrittener Jobcenter-Kunde<br>
 
