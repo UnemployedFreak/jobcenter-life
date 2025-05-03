@@ -1,7 +1,7 @@
 ## Jobcenter Simulator
 
-**Tage arbeitslos**: 1032<br>
-**Zuletzt aktualisiert**: 2025-05-02<br>
+**Tage arbeitslos**: 1033<br>
+**Zuletzt aktualisiert**: 2025-05-03<br>
 **Aktueller Arbeitgeber**: Jobcenter Berlin Spandau<br>
 **Position**: Erfahrener Bürgergeld-Spezialist<br>
 
