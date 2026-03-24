@@ -1,7 +1,7 @@
 ## Jobcenter Simulator
 
-**Tage arbeitslos**: 1357<br>
-**Zuletzt aktualisiert**: 2026-03-23<br>
+**Tage arbeitslos**: 1358<br>
+**Zuletzt aktualisiert**: 2026-03-24<br>
 **Aktueller Arbeitgeber**: Jobcenter Berlin Spandau<br>
 **Position**: Vollzeit-Profibürgergeldempfänger<br>
 
