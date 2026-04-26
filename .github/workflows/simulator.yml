@@ -1,0 +1,33 @@
+name: Jobcenter Simulator
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Configure Git
+        run: |
+          git config user.name "${{ secrets.GIT_USER_NAME }}"
+          git config user.email "${{ secrets.GIT_USER_EMAIL }}"
+          
+      - name: Update Counter
+        run: deno run --allow-read --allow-write --allow-run --allow-env run.ts
+
+      - name: Push
+        run: git diff --quiet HEAD origin/main || git push origin main
