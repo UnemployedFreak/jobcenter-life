@@ -31,3 +31,11 @@ jobs:
 
       - name: Push
         run: git diff --quiet HEAD origin/main || git push origin main
+        
+      - name: Trigger Profile Update
+        run: |
+          git diff --quiet HEAD origin/main || curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/UnemployedFreak/unemployedfreak/actions/workflows/update.yml/dispatches \
+            -d '{"ref":"main"}'
